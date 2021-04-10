@@ -1,0 +1,83 @@
+body {
+    /*margin: 100px;
+    width: 500px;
+    height: 1000px;
+    min-width: 250px;*/
+    align-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+  }
+
+  #header {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+  }
+
+h2 {
+    color: rgb(7, 0, 0);
+    border-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+
+  #textoTarea{
+      width: 400px;
+      height: 30px;
+      font-size: 24px;
+  }
+
+  #botonAgregar{
+      align-items: center;
+      width: 40px;
+      height: 37px;
+      margin: 5px;
+
+  }
+
+  .elementosLista{
+      width: 400px;
+      height: 30px;
+      margin-bottom: 10px;
+      list-style: none;
+      font-size: 24px;
+      border-bottom: 1px solid #ededed;
+    
+  }
+  
+  .botonCerrar{
+      float: right;
+      width: 30px;
+      height: 30px;
+      background-image: url('pap.png');
+      
+  }
+
+  .botonCerrar:hover {
+    background-color:red;
+    color: white;
+    
+  }
+  #textoResumenTareas{
+    align-items: center;
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    font-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .listaCheckeada{
+      text-decoration: line-through;
+      font-size: 30px;
+      color: red;
+      width: 400px;
+      height: 30px;
+      margin-bottom: 10px;
+  }
